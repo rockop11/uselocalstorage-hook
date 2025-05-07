@@ -4,7 +4,7 @@
   "type": "module",
   "exports": {
     ".": {
-      "import": "./dist/lib-uselocalstorage.js",
+      "import": "./dist/lib-useLocalStorage.js",
       "types": "./dist/index.d.ts"
     }
   },
@@ -23,10 +23,6 @@
     "lint:fix": "npm run lint --fix",
     "preview": "vite preview",
     "prepare": "husky install"
-  },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.0",

@@ -5,13 +5,13 @@ A simple and type-safe custom React hook for interacting with `localStorage`. Ea
 ## 🚀 Installation
 
 ```bash
-npm install use-local-storage-hook
+npm i lib-uselocalstorage
 ```
 
 ## Usage
 
 ```tsx
-import { useLocalStorage } from 'use-local-storage-hook';
+import { useLocalStorage } from 'lib-uselocalstorage'
 
 const MyComponent = () => {
   const {

@@ -1,7 +1,10 @@
 {
   "name": "lib-uselocalstorage",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "keywords": ["hooks", "localstorage", "react", "vite"],
+  "author": "Rodrigo Ponce | RP11",
+  "license": "MIT",
   "exports": {
     ".": {
       "import": "./dist/lib-useLocalStorage.js",
